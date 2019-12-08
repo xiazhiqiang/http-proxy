@@ -1,0 +1,34 @@
+{
+  "name": "http-proxy-tool",
+  "version": "1.0.0",
+  "description": "http代理请求工具",
+  "main": "index.js",
+  "bin": {
+    "hproxy": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiazhiqiang/http-proxy.git"
+  },
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "author": "xiazhiqiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiazhiqiang/http-proxy/issues"
+  },
+  "homepage": "https://github.com/xiazhiqiang/http-proxy#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "cross-env": "^6.0.3",
+    "cross-spawn": "^7.0.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "nodemon": "^2.0.1"
+  }
+}
